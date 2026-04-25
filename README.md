@@ -31,7 +31,7 @@ Para evaluar el éxito del análisis se utilizarán las siguientes métricas:
 Estas métricas permitirán identificar los departamentos con mayor eficiencia agrícola y analizar las diferencias en el comportamiento productivo según el tipo de cultivo, facilitando la toma de decisiones basada en datos para el sector agropecuario.
 
 ---
-## 🧠 Hipótesis
+## 🧠 IV. Hipótesis
 
 - 🌱 El rendimiento agrícola (t/ha) de los cultivos permanentes es mayor que el de los cultivos transitorios.  
 - 📊 Existe una relación entre el área cosechada y el rendimiento agrícola.  
