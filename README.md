@@ -36,3 +36,29 @@ Este análisis permitirá comprender las diferencias en el desempeño agrícola 
 ## 🧠 IV. Hipótesis
 
 - 🌱 El rendimiento agrícola promedio (t/ha) del cultivo de café en los departamentos de la región andina es superior al promedio nacional para ese mismo cultivo durante el periodo 2019–2024.
+----
+📂 **Fuente de Datos**
+El dataset utilizado proviene de las **Evaluaciones Agropecuarias Municipales (EVA)**, publicadas por el Ministerio de Agricultura y Desarrollo Rural de Colombia a través del portal de Datos Abiertos.
+* **Dataset:** [Evaluaciones Agropecuarias Municipales (EVA)](https://www.datos.gov.co/Agricultura-y-Desarrollo-Rural/Evaluaciones-Agropecuarias-Municipales-EVA-2019-20/uejq-wxrr/about_data)
+* **Periodo:** 2019 - 2024
+
+---
+## 🛠️ **V. Diagnóstico y Preparación de Datos (EDA)**
+
+Para garantizar la fiabilidad del análisis descriptivo, se ejecutó un proceso de auditoría de datos sobre los 141,073 registros:
+
+* **Limpieza de Tipos:** Conversión de variables de `object` a `float` para habilitar el cálculo matemático.
+* **Integridad:** * **Duplicados:** Se verificó la existencia de registros idénticos para evitar sobrecostos en las métricas.
+    * **Valores Nulos:** Identificación y tratamiento de vacíos para no sesgar los promedios.
+    * **Ceros:** Validación de valores en 0.00, determinando que corresponden a escalas de minifundio y no a errores de sistema.
+* **Análisis Estadístico:** * **Resumen:** Generación de medias, desviaciones y cuartiles (Media nacional: 10.60 t/ha).
+    * **Distribuciones:** Análisis de la forma de los datos para entender la dispersión de la producción.
+    * **Correlaciones:** Evaluación de la relación entre el Área Cosechada y la Producción Total para validar la lógica del rendimiento calculado.
+
+## 📈 **VI. Hallazgos Principales**
+
+1.  **Consistencia:** Existe una correlación lógica fuerte entre área y producción, lo que valida la calidad de la fuente EVA.
+2.  **Representatividad:** El dataset permite analizar tanto grandes productores como pequeñas parcelas, manteniendo la diversidad del agro colombiano.
+3.  **Viabilidad de la Hipótesis:** El segmento de café presenta datos limpios y suficientes para proceder con la comparación de la Región Andina frente al resto del país.
+
+---
