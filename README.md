@@ -7,7 +7,7 @@
 La producción agrícola en Colombia presenta variaciones significativas entre diferentes regiones y tipos de cultivo. Estas diferencias pueden afectar la planificación y la toma de decisiones en el sector agro, ya que no se tiene claridad sobre qué cultivos son más productivos ni en qué zonas se obtienen mejores resultados.
 
 ### ❓ Pregunta de Investigación
-> **¿Qué departamentos de Colombia presentan mayor rendimiento agrícola (medida en toneladas por hectárea) según el tipo de cultivo entre 2019 y 2024?**
+> **¿De qué manera varía el rendimiento agrícola (t/ha) en Colombia según el tipo de cultivo y la región en el periodo 2019–2024, y en qué medida el rendimiento del café en la región andina supera el promedio nacional de este cultivo?**
 
 ---
 
@@ -28,10 +28,11 @@ Para evaluar el éxito del análisis se utilizarán las siguientes métricas:
 ---
 
 ## 🚀 III. Objetivo del Análisis
-Estas métricas permitirán identificar los departamentos con mayor eficiencia agrícola y analizar las diferencias en el comportamiento productivo según el tipo de cultivo, facilitando la toma de decisiones basada en datos para el sector agropecuario.
+2019–2024 mediante el uso del rendimiento (t/ha), con el fin de identificar las zonas de mayor eficiencia productiva y evaluar el comportamiento del cultivo de café en la región andina frente al promedio nacional.
+
+Este análisis permitirá comprender las diferencias en el desempeño agrícola según el tipo de cultivo y la región, facilitando la toma de decisiones basada en datos en el sector agropecuario.
 
 ---
 ## 🧠 IV. Hipótesis
 
-- 🌱 El rendimiento agrícola (t/ha) de los cultivos permanentes es mayor que el de los cultivos transitorios.  
-- 📊 Existe una relación entre el área cosechada y el rendimiento agrícola.  
+- 🌱 El rendimiento agrícola promedio (t/ha) del cultivo de café en los departamentos de la región andina es superior al promedio nacional para ese mismo cultivo durante el periodo 2019–2024.
