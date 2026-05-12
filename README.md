@@ -62,7 +62,6 @@ Para garantizar la fiabilidad del análisis descriptivo, se ejecutó un proceso 
 3.  **Viabilidad de la Hipótesis:** El segmento de café presenta datos limpios y suficientes para proceder con la comparación de la Región Andina frente al resto del país.
 
 ---
-# Proyecto-Integrado-III: Análisis de Producción Agrícola (EVA 2019-2024) 🌾
 
 ## 🛠️ Procesamiento y Limpieza de Datos (ETL)
 
