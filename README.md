@@ -62,3 +62,27 @@ Para garantizar la fiabilidad del análisis descriptivo, se ejecutó un proceso 
 3.  **Viabilidad de la Hipótesis:** El segmento de café presenta datos limpios y suficientes para proceder con la comparación de la Región Andina frente al resto del país.
 
 ---
+# Proyecto-Integrado-III: Análisis de Producción Agrícola (EVA 2019-2024) 🌾
+
+## 🛠️ Procesamiento y Limpieza de Datos (ETL)
+
+Sobre un volumen de **141,073 registros**, se aplicaron las siguientes transformaciones para asegurar la integridad del análisis:
+
+### 1. Depuración y Tipado
+* **Ajuste de Tipos:** Conversión de variables críticas a `float` para habilitar cálculos de rendimiento.
+* **Eliminación de Redundancia:** Se removieron columnas de códigos internos (DANE) para optimizar el peso del dataset.
+* **Manejo de Nulos/Ceros:** Validación de valores en 0.00, confirmando que corresponden a escalas de pequeña producción (minifundio) y no a errores de captura.
+
+### 2. Ingeniería de Datos (Nuevas Variables)
+* **`Ubicacion_Unica`**: Concatenación de *Departamento + Municipio* para corregir la duplicidad de nombres de municipios entre regiones.
+* **Regionalización Natural**: Creación de la columna `Region` mediante el mapeo de los 32 departamentos en las **5 regiones naturales de Colombia** (Andina, Caribe, Pacífico, Orinoquía y Amazonía).
+* **Métrica de Rendimiento**: Cálculo automatizado de `Rendimiento = Producción (t) / Área Cosechada (ha)`.
+
+### 3. Estructura del Repositorio 📂
+Los datos resultantes se organizaron en la carpeta [`/data`](./data):
+* `EVA_Datos_Crudos.zip`: Insumo original (Comprimido por límite de peso).
+* `df_limpio_global.csv`: Dataset depurado y regionalizado.
+* `df_cafe_final.csv`: Subconjunto optimizado para el análisis de la hipótesis.
+
+---
+**Resultado:** Se logró una reducción de ruido en los datos, permitiendo validar que la **Región Andina** es el foco principal de eficiencia para el cultivo de café.
