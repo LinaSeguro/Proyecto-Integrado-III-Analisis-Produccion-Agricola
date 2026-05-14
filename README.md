@@ -78,10 +78,28 @@ Sobre un volumen de **141,073 registros**, se aplicaron las siguientes transform
 * **Métrica de Rendimiento**: Cálculo automatizado de `Rendimiento = Producción (t) / Área Cosechada (ha)`.
 
 ### 3. Estructura del Repositorio 📂
-Los datos resultantes se organizaron en la carpeta [`/data`](./data):
-* `EVA_Datos_Crudos.zip`: Insumo original (Comprimido por límite de peso).
-* `df_limpio_global.csv`: Dataset depurado y regionalizado.
-* `df_cafe_final.csv`: Subconjunto optimizado para el análisis de la hipótesis.
+### 📂 Estructura del Repositorio
 
+```text
+Proyecto-Integrado-III/
+├── 📁 data/
+│   ├── 📄 EVA_Datos_Crudos.zip    # Dataset original comprimido (>25MB)
+│   ├── 📄 df_limpio_global.csv    # Dataset depurado y regionalizado
+│   └── 📄 df_cafe_final.csv       # Dataset optimizado para análisis de café
+├── 📁 docs/                       # Documentación y reportes
+│   └── 📄 Reporte_Final.pdf       # Informe ejecutivo del análisis final
+├── 📄 Analisis_Produccion.ipynb   # Notebook de Google Colab con el código ETL
+└── 📄 README.md                   # Documentación principal del proyecto
+
+```
+----
+## 📄 Documentación Final
+
+Para una revisión detallada de la metodología, gráficas y conclusiones del proyecto, consulta el informe ejecutivo:
+
+[👉 Haz clic aquí para ver el Informe Final en PDF](./docs/Reporte_Final.pdf)
 ---
 **Resultado:** Se logró una reducción de ruido en los datos, permitiendo validar que la **Región Andina** es el foco principal de eficiencia para el cultivo de café.
+---
+*Este proyecto fue desarrollado como parte del Proyecto Integrado III.*
+
