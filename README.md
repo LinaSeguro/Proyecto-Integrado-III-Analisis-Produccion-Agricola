@@ -98,8 +98,11 @@ Proyecto-Integrado-III/
 Para una revisión detallada de la metodología, gráficas y conclusiones del proyecto, consulta el informe ejecutivo:
 
 [👉 Haz clic aquí para ver el Informe Final en PDF](./docs/Reporte_Final.pdf)
+
 ---
+
 **Resultado:** Se logró una reducción de ruido en los datos, permitiendo validar que la **Región Andina** es el foco principal de eficiencia para el cultivo de café.
+
 ---
 *Este proyecto fue desarrollado como parte del Proyecto Integrado III.*
 
