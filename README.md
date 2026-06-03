@@ -93,6 +93,26 @@ Proyecto-Integrado-III/
 
 ```
 ----
+## 🔍 Análisis de Datos
+
+Para validar la hipótesis del proyecto se analizaron las variables **rendimiento (t/ha)**, **producción**, **área cosechada**, **región**, **departamento** y **año**. La variable principal fue el rendimiento, ya que permite medir la eficiencia productiva del cultivo de café y realizar comparaciones entre diferentes regiones del país.
+
+El análisis regional mostró que la **Región Andina** obtuvo un rendimiento promedio de **1.07 t/ha**, mientras que el **promedio nacional** fue de **1.05 t/ha** durante el periodo 2019–2024. Esta diferencia representa aproximadamente un **2.1 %** a favor de la Región Andina.
+
+A nivel departamental, **Huila, Quindío y Antioquia** se destacaron por registrar algunos de los mayores rendimientos promedio del país, evidenciando una alta eficiencia productiva en estos territorios.
+
+El análisis temporal permitió observar el comportamiento del rendimiento cafetero entre 2019 y 2024, identificando patrones consistentes en la productividad del cultivo a lo largo del periodo estudiado.
+
+Los resultados obtenidos respaldan la hipótesis planteada al inicio del proyecto, demostrando que la **Región Andina presenta un rendimiento promedio superior al promedio nacional** para el cultivo de café en Colombia.
+## Conclusión
+
+El análisis realizado permitió validar la hipótesis planteada al inicio del proyecto, evidenciando que la Región Andina presentó un rendimiento promedio superior al promedio nacional en el cultivo de café durante el periodo 2019–2024.
+
+A través de la limpieza, transformación y visualización de los datos, se identificaron diferencias regionales en la productividad cafetera y se destacó el aporte de departamentos como Huila, Quindío y Antioquia. La variable **rendimiento (t/ha)** fue fundamental para medir la eficiencia productiva y realizar comparaciones objetivas entre regiones.
+
+Los resultados obtenidos demuestran la utilidad de la analítica de datos para comprender el comportamiento del sector agrícola colombiano y generar información que contribuya a la toma de decisiones basada en datos.
+
+----
 ## 📄 Documentación Final
 
 Para una revisión detallada de la metodología, gráficas y conclusiones del proyecto, consulta el informe ejecutivo:
@@ -101,8 +121,5 @@ Para una revisión detallada de la metodología, gráficas y conclusiones del pr
 
 ---
 
-**Resultado:** Se logró una reducción de ruido en los datos, permitiendo validar que la **Región Andina** es el foco principal de eficiencia para el cultivo de café.
-
----
 *Este proyecto fue desarrollado como parte del Proyecto Integrado III.*
 
